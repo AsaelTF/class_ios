@@ -39,7 +39,7 @@ struct Login_dos: View {
     var body: some View {
         VStack{
             Text("Hola view 3")
-            Button("Test de la peticion del API"){
+            Button("Test"){
                 Task {
                     let rs = try await
                     CentralBankAPI().login(request: LoginRequest(username: "TEST 1", password: "TEST 1"))
