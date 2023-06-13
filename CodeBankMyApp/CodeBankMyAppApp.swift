@@ -11,7 +11,7 @@ import SwiftUI
 struct CodeBankMyAppApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LoginUIView()
         }
     }
 }
